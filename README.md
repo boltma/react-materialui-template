@@ -1,5 +1,7 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+App is an example from [Material-UI](https://github.com/mui-org/material-ui/tree/master/examples/create-react-app-with-typescript).
+
 ## Available Scripts
 
 In the project directory, you can run:
