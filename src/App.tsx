@@ -18,7 +18,7 @@ const Copyright = () => {
   );
 };
 
-const App = () => {
+const App: () => JSX.Element = () => {
   return (
     <Container maxWidth="sm">
       <Box my={4}>
