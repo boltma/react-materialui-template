@@ -15,16 +15,16 @@ function LightBulbIcon(props: SvgIconProps) {
 const useStyles = makeStyles((theme: Theme) =>
   createStyles({
     root: {
-      margin: theme.spacing(6, 0, 3)
+      margin: theme.spacing(6, 0, 3),
     },
     lightBulb: {
       verticalAlign: 'middle',
-      marginRight: theme.spacing(1)
-    }
+      marginRight: theme.spacing(1),
+    },
   })
 );
 
-export default function ProTip() {
+export default function ProTip(): JSX.Element {
   const classes = useStyles();
   return (
     <Typography className={classes.root} color="textSecondary">

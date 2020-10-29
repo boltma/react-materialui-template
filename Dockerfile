@@ -1,6 +1,6 @@
 # Builder stage
 
-FROM node:13-alpine AS builder
+FROM node:14-alpine AS builder
 
 RUN apk add python3 make gcc g++
 
